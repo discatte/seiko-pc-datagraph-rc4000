@@ -1,5 +1,5 @@
 10   RUN"RC4000.BAS
-20   SAVE"RC4000.sys":END
+20   SAVE"RC4KSYS.BAS":END
 29  '
 50   REM *************************************************************
 51   REM              RC4000.SYS   Version 1.00i/ms
