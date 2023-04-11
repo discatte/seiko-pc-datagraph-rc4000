@@ -115,7 +115,7 @@
 1500 REM
 1505 GOSUB 15820
 1506 GOSUB 15030
-1510 CHAIN "RC4000.SYS",1505,ALL
+1510 CHAIN "RC4KSYS.BAS",1505,ALL
 15030 COLOR 15:CLS
 15040 LOCATE 1,1:PRINT CHR$(218)+STRING$(78,196)+CHR$(191)
 15050 FOR X = 2 TO 10
@@ -168,7 +168,7 @@
 15975 MG$(31) = "Searching ..."
 15980 MG$(32) = "Receive ready - Press <LOCK> button on RC-4000"
 15985 MG$(33) = "Please wait ..."
-16000 BL$     = "   ³      --- --- ---       ³                          "
+16000 BL$     = "   Â³      --- --- ---       Â³                          "
 16010 DL$( 0) = "- MEMO -----------------"
 16020 DL$( 1) = "- SCHEDULE ----- ALARM -"
 16030 DL$( 2) = "- WEEKLY ------- ALARM -"
